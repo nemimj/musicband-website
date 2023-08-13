@@ -1,0 +1,37 @@
+#navbar{
+    justify-content: center;
+}
+#search{
+    display: none;
+}
+
+
+#brand .items{
+    flex-direction: column;
+}
+
+.tour-places .items{
+    flex-direction: column;
+}
+
+.tour-places{
+    padding: 0;
+}
+
+#contact .contact-details{
+    flex-direction: column;
+}
+
+.contact-info{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contact-form{
+    text-align: center;
+}
+
+.contact-form input{
+    width: 100%;
+}

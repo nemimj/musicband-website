@@ -1,0 +1,270 @@
+/* Resetting the Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+/* Utility class */
+
+
+.middle-heading{
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.bg-dark{
+    background-color:black;
+    color: #f4f4f4;
+}
+
+.bg-light{
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.p-2{
+    padding: 2rem;
+}
+
+.m-1{
+    margin: 1rem;
+}
+
+.container{
+    max-width: 968px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.sold-out{
+    background-color: red;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.gap{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.check{
+    background-color: black;
+    border-radius: 100%;
+    padding: 0.25rem;
+    color: white;
+    width: 30px;
+    display: inline-block;
+    margin-left: auto;
+    text-align: center;
+}
+
+.btn{
+    width: 120px;
+    padding: 0.8rem;
+    cursor: pointer;
+    border: 0;
+    font-weight: 500;
+}
+
+.btn-dark{
+    background-color: #222;
+    color: white;
+}
+
+
+.btn:hover{
+    background-color: #f4f4f4;
+    color: #222;
+}
+/* Navbar */
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li a{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    background-color: #222;
+    border-radius: 5px;
+}
+
+
+/* Header */
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    min-height: 100vh;
+    background: url(../img/header.jpg) no-repeat center center/cover;
+}
+
+#header .header-content{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    margin-bottom: 10rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+
+/* Section : Band info */
+
+.band-info{
+    text-align: center;
+}
+
+
+.band-info p{
+    text-align: left;
+}
+
+#brand .items{
+    display: flex;
+    text-align: center;
+}
+
+
+#brand .items .item img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* section: tour */
+
+.tour-places{
+    padding: 2rem;
+}
+
+#tour .tour-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#tour .tour-dates{
+    background-color: white;
+    color:black;
+
+}
+
+#tour .tour-dates p{
+    padding: 0.6rem;
+    border-bottom: 1px dotted black;
+}
+
+
+.tour-places{
+    margin-top: 3.5rem;
+}
+
+.tour-places .items{
+    display: flex;
+    gap: 1rem;
+}
+
+.tour-places .items .item{
+    background-color: white;
+    color:black;
+}
+
+.item-info {
+    padding: 1rem;
+}
+
+.item-img img{
+    display: block;
+    width: 100%;
+}
+
+
+/* Section Contact */
+
+#contact{
+    padding: 2rem;
+}
+
+#contact .contact-details{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5rem;
+}
+
+.contact-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-info{
+    width: 26%;
+    font-size: 1.2rem;
+}
+
+.contact-details textarea,input{
+    margin-bottom: 0.25rem;
+    padding: 0.75rem;
+    border:1px solid #ccc;
+}
+
+.contact-details textarea{
+    display: block;
+    width: 100%;
+}
+
+
+/* section map */
+
+.map img{
+    width: 100%;
+}
+
+
+/* section footer */
+
+#footer{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
